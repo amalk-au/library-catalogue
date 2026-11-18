@@ -84,25 +84,11 @@ The application implements the following input restrictions:
 
 ## Screenshots
 
-Screenshots can be added to the `docs/screenshots/` directory.
+![](./docs/screenshots/inital-view.png)
+![](./docs/screenshots/add-book.png)
+![](./docs/screenshots/catalogue-view.png)
 
-### Application Overview
-
-### Book Catalogue
-
-### Add New Book
-
-### Mobile View
-
-## Live Demo
-
-Explore the deployed application:
-
-[**Library Catalogue – Live Demo**](https://amalk.au/library-catalogue/)
-
-Source Code: [GitHub Repository](https://github.com/amalk-au/library-catalogue)
-
-Portfolio: [https://amalk.au](https://amalk.au)
+## Live Demo : [**Library Catalogue – Live Demo**](https://amalk.au/library-catalogue/)
 
 ## Tech Stack
 
