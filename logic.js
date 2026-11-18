@@ -40,7 +40,7 @@ class bookData {
 class addBookToLibrary {
   constructor() {
     let bookSubmitForm = new FormData(
-      document.getElementById("bookSubmitForm")
+      document.getElementById("bookSubmitForm"),
     );
     let authorValue = bookSubmitForm.getAll("author");
     let titleValue = bookSubmitForm.getAll("title");
@@ -52,7 +52,7 @@ class addBookToLibrary {
       authorValue[0],
       titleValue[0],
       numberOfPagesValue[0],
-      readValue[0]
+      readValue[0],
     );
     myLibrary.push(newBook);
 
@@ -160,7 +160,7 @@ class formValidation {
     this.numberOfPages = document.querySelector("#numberOfPages");
 
     this.errorNumberOfPages = document.querySelector(
-      "#numberOfPages + span.error"
+      "#numberOfPages + span.error",
     );
     this.errorAuthorName = document.querySelector("#author + span.error");
     this.errorTitle = document.querySelector("#title + span.error");

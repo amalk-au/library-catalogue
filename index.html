@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,20 +26,39 @@
         <form action="" method="get" id="bookSubmitForm">
           <div>
             <label for="author">Author Name:</label>
-            <input id="author" type="text" name="author" maxlength="100" required />
+            <input
+              id="author"
+              type="text"
+              name="author"
+              maxlength="100"
+              required
+            />
             <span class="error" aria-live="polite"></span>
           </div>
 
           <div>
             <label for="title">Book Title:</label>
-            <input id="title" type="text" name="title" maxlength="100" required />
+            <input
+              id="title"
+              type="text"
+              name="title"
+              maxlength="100"
+              required
+            />
             <span class="error" aria-live="polite"></span>
           </div>
 
           <div>
             <label for="numberOfPages">Number of Pages:</label>
-            <input type="number" id="numberOfPages" name="numberOfPages" min="10" max="1000" required/>
-            <span class="error" aria-live="polite"></span>  
+            <input
+              type="number"
+              id="numberOfPages"
+              name="numberOfPages"
+              min="10"
+              max="1000"
+              required
+            />
+            <span class="error" aria-live="polite"></span>
           </div>
 
           <div>
@@ -54,7 +73,9 @@
           </div>
 
           <div>
-            <button id="submitButton" type="button" disabled>Submit Book info</button>
+            <button id="submitButton" type="button" disabled>
+              Submit Book info
+            </button>
           </div>
         </form>
       </div>
